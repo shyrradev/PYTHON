@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_47b5d40c63d915d83765352f03118c3f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_47b5d40c63d915d83765352f03118c3f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_47b5d40c63d915d83765352f03118c3f = L.map(
+                "map_47b5d40c63d915d83765352f03118c3f",
+                {
+                    center: [32.0, -99.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cadef968a4801732d300e06f9e22192b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cadef968a4801732d300e06f9e22192b.addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            var marker_cluster_48205b4c271a85870e8b3c22a3b79b09 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_c58e7448b51d62593fa6006750bab15e = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_8d7f2c8e0457cc6cb0bc081668ae8583 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c454370df799d18f3f0b73c9d20924c = $(`<div id="html_3c454370df799d18f3f0b73c9d20924c" style="width: 100.0%; height: 100.0%;">Flight 1, CCAFS LC-40, class 0</div>`)[0];
+                popup_8d7f2c8e0457cc6cb0bc081668ae8583.setContent(html_3c454370df799d18f3f0b73c9d20924c);
+            
+        
+
+        circle_marker_c58e7448b51d62593fa6006750bab15e.bindPopup(popup_8d7f2c8e0457cc6cb0bc081668ae8583)
+        ;
+
+        
+    
+    
+            var circle_marker_3bf199f3e2f13d193d45f5f890456ea4 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_dac361570403c12b92e7cfc072bec0f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e951916fd937d261f509aa2d0981ce1 = $(`<div id="html_8e951916fd937d261f509aa2d0981ce1" style="width: 100.0%; height: 100.0%;">Flight 2, CCAFS LC-40, class 0</div>`)[0];
+                popup_dac361570403c12b92e7cfc072bec0f7.setContent(html_8e951916fd937d261f509aa2d0981ce1);
+            
+        
+
+        circle_marker_3bf199f3e2f13d193d45f5f890456ea4.bindPopup(popup_dac361570403c12b92e7cfc072bec0f7)
+        ;
+
+        
+    
+    
+            var circle_marker_0e35666343ae24e102a68098207477b5 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_4d0cc4cbd4afcc0022d27f59260f8648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9d26b14d9f7e43bf930ece9beec8fec = $(`<div id="html_a9d26b14d9f7e43bf930ece9beec8fec" style="width: 100.0%; height: 100.0%;">Flight 3, CCAFS LC-40, class 0</div>`)[0];
+                popup_4d0cc4cbd4afcc0022d27f59260f8648.setContent(html_a9d26b14d9f7e43bf930ece9beec8fec);
+            
+        
+
+        circle_marker_0e35666343ae24e102a68098207477b5.bindPopup(popup_4d0cc4cbd4afcc0022d27f59260f8648)
+        ;
+
+        
+    
+    
+            var circle_marker_2aad340a61f4fb1fb7cb74a656c3a33e = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_5cee23d5f128ded8335d5f657a650be4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7b87bced6059beeb975e7673ce50b1d = $(`<div id="html_b7b87bced6059beeb975e7673ce50b1d" style="width: 100.0%; height: 100.0%;">Flight 4, CCAFS LC-40, class 0</div>`)[0];
+                popup_5cee23d5f128ded8335d5f657a650be4.setContent(html_b7b87bced6059beeb975e7673ce50b1d);
+            
+        
+
+        circle_marker_2aad340a61f4fb1fb7cb74a656c3a33e.bindPopup(popup_5cee23d5f128ded8335d5f657a650be4)
+        ;
+
+        
+    
+    
+            var circle_marker_18ddb2598d4d9fa75e822b64e5028dac = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_34b5db1047a99ccc728d4152e6f62b0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d79991fd693bffd65018c4fd6a9e121 = $(`<div id="html_8d79991fd693bffd65018c4fd6a9e121" style="width: 100.0%; height: 100.0%;">Flight 5, CCAFS LC-40, class 0</div>`)[0];
+                popup_34b5db1047a99ccc728d4152e6f62b0b.setContent(html_8d79991fd693bffd65018c4fd6a9e121);
+            
+        
+
+        circle_marker_18ddb2598d4d9fa75e822b64e5028dac.bindPopup(popup_34b5db1047a99ccc728d4152e6f62b0b)
+        ;
+
+        
+    
+    
+            var circle_marker_1f03d31f0fb545759a21630f8fb8c87c = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_41032e04c7ca5074234e2b80963d1d0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cb1454eb3768c06f7ee5a310e67459d = $(`<div id="html_3cb1454eb3768c06f7ee5a310e67459d" style="width: 100.0%; height: 100.0%;">Flight 7, CCAFS LC-40, class 0</div>`)[0];
+                popup_41032e04c7ca5074234e2b80963d1d0f.setContent(html_3cb1454eb3768c06f7ee5a310e67459d);
+            
+        
+
+        circle_marker_1f03d31f0fb545759a21630f8fb8c87c.bindPopup(popup_41032e04c7ca5074234e2b80963d1d0f)
+        ;
+
+        
+    
+    
+            var circle_marker_d7a453ea9256d7431afe8baf6568e86b = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_cb672693eb8f52cacd9bf3a417be5b18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eebaa167745b2b882fc4590c90519a28 = $(`<div id="html_eebaa167745b2b882fc4590c90519a28" style="width: 100.0%; height: 100.0%;">Flight 8, CCAFS LC-40, class 0</div>`)[0];
+                popup_cb672693eb8f52cacd9bf3a417be5b18.setContent(html_eebaa167745b2b882fc4590c90519a28);
+            
+        
+
+        circle_marker_d7a453ea9256d7431afe8baf6568e86b.bindPopup(popup_cb672693eb8f52cacd9bf3a417be5b18)
+        ;
+
+        
+    
+    
+            var circle_marker_a13c1c9404f1d740fa4360d3f708a22b = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_f3fdd6dc414f422cfdf53fcca634e225 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4f8ab8d9550700b0c6373a25f8fa80d = $(`<div id="html_f4f8ab8d9550700b0c6373a25f8fa80d" style="width: 100.0%; height: 100.0%;">Flight 9, CCAFS LC-40, class 0</div>`)[0];
+                popup_f3fdd6dc414f422cfdf53fcca634e225.setContent(html_f4f8ab8d9550700b0c6373a25f8fa80d);
+            
+        
+
+        circle_marker_a13c1c9404f1d740fa4360d3f708a22b.bindPopup(popup_f3fdd6dc414f422cfdf53fcca634e225)
+        ;
+
+        
+    
+    
+            var circle_marker_4d43391a2e40419dbb9f19b9b1265057 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_20edf88ed5a39c0fda833f8676d88423 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a62000a30f08259c465c8937a6663a4 = $(`<div id="html_0a62000a30f08259c465c8937a6663a4" style="width: 100.0%; height: 100.0%;">Flight 10, CCAFS LC-40, class 0</div>`)[0];
+                popup_20edf88ed5a39c0fda833f8676d88423.setContent(html_0a62000a30f08259c465c8937a6663a4);
+            
+        
+
+        circle_marker_4d43391a2e40419dbb9f19b9b1265057.bindPopup(popup_20edf88ed5a39c0fda833f8676d88423)
+        ;
+
+        
+    
+    
+            var circle_marker_03fbc23464a6f639d061bb5ace044b36 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_ee8f673032d55d5b700dc6839fbc0879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d18d579a40a6b53869f673ca087a49fe = $(`<div id="html_d18d579a40a6b53869f673ca087a49fe" style="width: 100.0%; height: 100.0%;">Flight 11, CCAFS LC-40, class 0</div>`)[0];
+                popup_ee8f673032d55d5b700dc6839fbc0879.setContent(html_d18d579a40a6b53869f673ca087a49fe);
+            
+        
+
+        circle_marker_03fbc23464a6f639d061bb5ace044b36.bindPopup(popup_ee8f673032d55d5b700dc6839fbc0879)
+        ;
+
+        
+    
+    
+            var circle_marker_ab352974b46e6b7c7ab6d894175ddabd = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_57ec58c6606f9dd7c0b4e4e29165d762 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e19450c1a73bfaa06620a3b8de39a30f = $(`<div id="html_e19450c1a73bfaa06620a3b8de39a30f" style="width: 100.0%; height: 100.0%;">Flight 12, CCAFS LC-40, class 0</div>`)[0];
+                popup_57ec58c6606f9dd7c0b4e4e29165d762.setContent(html_e19450c1a73bfaa06620a3b8de39a30f);
+            
+        
+
+        circle_marker_ab352974b46e6b7c7ab6d894175ddabd.bindPopup(popup_57ec58c6606f9dd7c0b4e4e29165d762)
+        ;
+
+        
+    
+    
+            var circle_marker_e411da3fa213a07e41251dd2e32e2f9a = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_11d2b331b795171db9e8dd9366b48b86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06f90e8a5f2625afb3054fb053520536 = $(`<div id="html_06f90e8a5f2625afb3054fb053520536" style="width: 100.0%; height: 100.0%;">Flight 13, CCAFS LC-40, class 0</div>`)[0];
+                popup_11d2b331b795171db9e8dd9366b48b86.setContent(html_06f90e8a5f2625afb3054fb053520536);
+            
+        
+
+        circle_marker_e411da3fa213a07e41251dd2e32e2f9a.bindPopup(popup_11d2b331b795171db9e8dd9366b48b86)
+        ;
+
+        
+    
+    
+            var circle_marker_f7402bbfb2bfdb2e62c68890df73cff8 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_0437dc2504233db004314286db8ae945 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2cf810933ca5e0e5ae17681b57f591b = $(`<div id="html_b2cf810933ca5e0e5ae17681b57f591b" style="width: 100.0%; height: 100.0%;">Flight 14, CCAFS LC-40, class 0</div>`)[0];
+                popup_0437dc2504233db004314286db8ae945.setContent(html_b2cf810933ca5e0e5ae17681b57f591b);
+            
+        
+
+        circle_marker_f7402bbfb2bfdb2e62c68890df73cff8.bindPopup(popup_0437dc2504233db004314286db8ae945)
+        ;
+
+        
+    
+    
+            var circle_marker_9ddeeb9b0f9bd82362ddf4487386309a = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_6e7620c9e8d017f6c732991592f981b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_784d88f1372000184eabf26b02dfc9d4 = $(`<div id="html_784d88f1372000184eabf26b02dfc9d4" style="width: 100.0%; height: 100.0%;">Flight 15, CCAFS LC-40, class 0</div>`)[0];
+                popup_6e7620c9e8d017f6c732991592f981b5.setContent(html_784d88f1372000184eabf26b02dfc9d4);
+            
+        
+
+        circle_marker_9ddeeb9b0f9bd82362ddf4487386309a.bindPopup(popup_6e7620c9e8d017f6c732991592f981b5)
+        ;
+
+        
+    
+    
+            var circle_marker_aff1f61fa010aa27c57d3e37a415a38b = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_eb8e690fb5062cd0b34047420b7e1096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db98d7618630f03bc409ffeb7605174f = $(`<div id="html_db98d7618630f03bc409ffeb7605174f" style="width: 100.0%; height: 100.0%;">Flight 16, CCAFS LC-40, class 0</div>`)[0];
+                popup_eb8e690fb5062cd0b34047420b7e1096.setContent(html_db98d7618630f03bc409ffeb7605174f);
+            
+        
+
+        circle_marker_aff1f61fa010aa27c57d3e37a415a38b.bindPopup(popup_eb8e690fb5062cd0b34047420b7e1096)
+        ;
+
+        
+    
+    
+            var circle_marker_00bc92c879575d191b220f574a5ee03f = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_92552f4f472aba0b07bb991bec4afcc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17af1cc28592bc0d6d1076592b274fb9 = $(`<div id="html_17af1cc28592bc0d6d1076592b274fb9" style="width: 100.0%; height: 100.0%;">Flight 17, CCAFS LC-40, class 0</div>`)[0];
+                popup_92552f4f472aba0b07bb991bec4afcc2.setContent(html_17af1cc28592bc0d6d1076592b274fb9);
+            
+        
+
+        circle_marker_00bc92c879575d191b220f574a5ee03f.bindPopup(popup_92552f4f472aba0b07bb991bec4afcc2)
+        ;
+
+        
+    
+    
+            var circle_marker_a4a46d99921534c0123f103908c51ca5 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_a777a5cd87440e122626b25cc454393b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2aafd8b8da45638072b6c6038fd864d = $(`<div id="html_c2aafd8b8da45638072b6c6038fd864d" style="width: 100.0%; height: 100.0%;">Flight 18, CCAFS LC-40, class 0</div>`)[0];
+                popup_a777a5cd87440e122626b25cc454393b.setContent(html_c2aafd8b8da45638072b6c6038fd864d);
+            
+        
+
+        circle_marker_a4a46d99921534c0123f103908c51ca5.bindPopup(popup_a777a5cd87440e122626b25cc454393b)
+        ;
+
+        
+    
+    
+            var circle_marker_0af585039300891797c260974beb02d6 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_08735cb91e85dcf31dd378b79006bb6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84b8ef4abc3f8f46a80911977ae3db1f = $(`<div id="html_84b8ef4abc3f8f46a80911977ae3db1f" style="width: 100.0%; height: 100.0%;">Flight 19, CCAFS LC-40, class 1</div>`)[0];
+                popup_08735cb91e85dcf31dd378b79006bb6d.setContent(html_84b8ef4abc3f8f46a80911977ae3db1f);
+            
+        
+
+        circle_marker_0af585039300891797c260974beb02d6.bindPopup(popup_08735cb91e85dcf31dd378b79006bb6d)
+        ;
+
+        
+    
+    
+            var circle_marker_b0cfad7ef37f56b0fcc8f602434a3945 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_6415b73ab0c11be99792b7e3c3b33ce3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baf47bbbb445b69ef698f185ec908eff = $(`<div id="html_baf47bbbb445b69ef698f185ec908eff" style="width: 100.0%; height: 100.0%;">Flight 20, CCAFS LC-40, class 1</div>`)[0];
+                popup_6415b73ab0c11be99792b7e3c3b33ce3.setContent(html_baf47bbbb445b69ef698f185ec908eff);
+            
+        
+
+        circle_marker_b0cfad7ef37f56b0fcc8f602434a3945.bindPopup(popup_6415b73ab0c11be99792b7e3c3b33ce3)
+        ;
+
+        
+    
+    
+            var circle_marker_07eb048a12c3142c8790dfc8f2c61cb6 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_d49c045dc36aa9b3c1a78d78657e1de6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d97dd2afe3680cd69ba085bd14a7fe8 = $(`<div id="html_7d97dd2afe3680cd69ba085bd14a7fe8" style="width: 100.0%; height: 100.0%;">Flight 22, CCAFS LC-40, class 0</div>`)[0];
+                popup_d49c045dc36aa9b3c1a78d78657e1de6.setContent(html_7d97dd2afe3680cd69ba085bd14a7fe8);
+            
+        
+
+        circle_marker_07eb048a12c3142c8790dfc8f2c61cb6.bindPopup(popup_d49c045dc36aa9b3c1a78d78657e1de6)
+        ;
+
+        
+    
+    
+            var circle_marker_124d9c21fdea7d355d15a87d20fc7c41 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_d0dfcc664c58a61137b728a946d8406e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8588f864229ef41a3c8484a2e84dc78b = $(`<div id="html_8588f864229ef41a3c8484a2e84dc78b" style="width: 100.0%; height: 100.0%;">Flight 23, CCAFS LC-40, class 1</div>`)[0];
+                popup_d0dfcc664c58a61137b728a946d8406e.setContent(html_8588f864229ef41a3c8484a2e84dc78b);
+            
+        
+
+        circle_marker_124d9c21fdea7d355d15a87d20fc7c41.bindPopup(popup_d0dfcc664c58a61137b728a946d8406e)
+        ;
+
+        
+    
+    
+            var circle_marker_6486142d1e45f787aef988ab84ab7027 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_813c882bba89d4edb93c6a89f15d7c3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_befe736d8d9bfdf14bf16fdd32608b52 = $(`<div id="html_befe736d8d9bfdf14bf16fdd32608b52" style="width: 100.0%; height: 100.0%;">Flight 24, CCAFS LC-40, class 1</div>`)[0];
+                popup_813c882bba89d4edb93c6a89f15d7c3c.setContent(html_befe736d8d9bfdf14bf16fdd32608b52);
+            
+        
+
+        circle_marker_6486142d1e45f787aef988ab84ab7027.bindPopup(popup_813c882bba89d4edb93c6a89f15d7c3c)
+        ;
+
+        
+    
+    
+            var circle_marker_030501a4a670b4c2b7e3f80acdc7fadd = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_9571e96f29fbe01d8ed0d22b056af6ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4bc08cecae08c868d3f93b3c776687b = $(`<div id="html_d4bc08cecae08c868d3f93b3c776687b" style="width: 100.0%; height: 100.0%;">Flight 25, CCAFS LC-40, class 1</div>`)[0];
+                popup_9571e96f29fbe01d8ed0d22b056af6ee.setContent(html_d4bc08cecae08c868d3f93b3c776687b);
+            
+        
+
+        circle_marker_030501a4a670b4c2b7e3f80acdc7fadd.bindPopup(popup_9571e96f29fbe01d8ed0d22b056af6ee)
+        ;
+
+        
+    
+    
+            var circle_marker_80e0bebff636b9cfb6f5ecf8d5fa0ac6 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_bda0abf7788cee7479eec25a308339a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_443166c23877838a4ff98245835d6fec = $(`<div id="html_443166c23877838a4ff98245835d6fec" style="width: 100.0%; height: 100.0%;">Flight 26, CCAFS LC-40, class 0</div>`)[0];
+                popup_bda0abf7788cee7479eec25a308339a0.setContent(html_443166c23877838a4ff98245835d6fec);
+            
+        
+
+        circle_marker_80e0bebff636b9cfb6f5ecf8d5fa0ac6.bindPopup(popup_bda0abf7788cee7479eec25a308339a0)
+        ;
+
+        
+    
+    
+            var circle_marker_ae322972b665f1f229a926c14ceea1c7 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_bd886333795af21f060d169e3e78c7e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd05735687aeaf296e0326cf93e014d = $(`<div id="html_1cd05735687aeaf296e0326cf93e014d" style="width: 100.0%; height: 100.0%;">Flight 27, CCAFS LC-40, class 1</div>`)[0];
+                popup_bd886333795af21f060d169e3e78c7e6.setContent(html_1cd05735687aeaf296e0326cf93e014d);
+            
+        
+
+        circle_marker_ae322972b665f1f229a926c14ceea1c7.bindPopup(popup_bd886333795af21f060d169e3e78c7e6)
+        ;
+
+        
+    
+    
+            var circle_marker_4ce732401beac73dd9e915b91a387004 = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_b81b0a086c385a0b788a20ef2e2cdf13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a8ae8a33b36999d53ac22730987c51 = $(`<div id="html_a3a8ae8a33b36999d53ac22730987c51" style="width: 100.0%; height: 100.0%;">Flight 28, CCAFS LC-40, class 1</div>`)[0];
+                popup_b81b0a086c385a0b788a20ef2e2cdf13.setContent(html_a3a8ae8a33b36999d53ac22730987c51);
+            
+        
+
+        circle_marker_4ce732401beac73dd9e915b91a387004.bindPopup(popup_b81b0a086c385a0b788a20ef2e2cdf13)
+        ;
+
+        
+    
+    
+            var circle_marker_a82f4f89d5005b1fe09add4b3eecf073 = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_70cb9ce72c171bdabe0d5c528590e50a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0986c9979b84633b2ad3d672aac7ba33 = $(`<div id="html_0986c9979b84633b2ad3d672aac7ba33" style="width: 100.0%; height: 100.0%;">Flight 6, VAFB SLC-4E, class 0</div>`)[0];
+                popup_70cb9ce72c171bdabe0d5c528590e50a.setContent(html_0986c9979b84633b2ad3d672aac7ba33);
+            
+        
+
+        circle_marker_a82f4f89d5005b1fe09add4b3eecf073.bindPopup(popup_70cb9ce72c171bdabe0d5c528590e50a)
+        ;
+
+        
+    
+    
+            var circle_marker_fd1411fe584d19840462cd633348585a = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_16333710bd272c911fd05bd4cc5c7572 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6f3167115e3bb3a70e3a61310529f54 = $(`<div id="html_f6f3167115e3bb3a70e3a61310529f54" style="width: 100.0%; height: 100.0%;">Flight 21, VAFB SLC-4E, class 0</div>`)[0];
+                popup_16333710bd272c911fd05bd4cc5c7572.setContent(html_f6f3167115e3bb3a70e3a61310529f54);
+            
+        
+
+        circle_marker_fd1411fe584d19840462cd633348585a.bindPopup(popup_16333710bd272c911fd05bd4cc5c7572)
+        ;
+
+        
+    
+    
+            var circle_marker_bf6ce32709a282fb76b4f80f52804b9a = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_d85a1cc283d13a1d0afa4963d9f0c388 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1ee9079a08a55429a74d7d8fc9572ff = $(`<div id="html_c1ee9079a08a55429a74d7d8fc9572ff" style="width: 100.0%; height: 100.0%;">Flight 29, VAFB SLC-4E, class 1</div>`)[0];
+                popup_d85a1cc283d13a1d0afa4963d9f0c388.setContent(html_c1ee9079a08a55429a74d7d8fc9572ff);
+            
+        
+
+        circle_marker_bf6ce32709a282fb76b4f80f52804b9a.bindPopup(popup_d85a1cc283d13a1d0afa4963d9f0c388)
+        ;
+
+        
+    
+    
+            var circle_marker_6b38cc71d99a774cba4058e15dbf5881 = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_4192b43c9e5b392cd9216882ef9b7286 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fabf32b63b3cad6b8447034b564c673a = $(`<div id="html_fabf32b63b3cad6b8447034b564c673a" style="width: 100.0%; height: 100.0%;">Flight 37, VAFB SLC-4E, class 1</div>`)[0];
+                popup_4192b43c9e5b392cd9216882ef9b7286.setContent(html_fabf32b63b3cad6b8447034b564c673a);
+            
+        
+
+        circle_marker_6b38cc71d99a774cba4058e15dbf5881.bindPopup(popup_4192b43c9e5b392cd9216882ef9b7286)
+        ;
+
+        
+    
+    
+            var circle_marker_14a1f1c39327cf0fc55ec915579070ca = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_299a490f97d1d0541dd02dffd35e1f74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8de1228c9766c797a5c7415b59aa08c7 = $(`<div id="html_8de1228c9766c797a5c7415b59aa08c7" style="width: 100.0%; height: 100.0%;">Flight 40, VAFB SLC-4E, class 1</div>`)[0];
+                popup_299a490f97d1d0541dd02dffd35e1f74.setContent(html_8de1228c9766c797a5c7415b59aa08c7);
+            
+        
+
+        circle_marker_14a1f1c39327cf0fc55ec915579070ca.bindPopup(popup_299a490f97d1d0541dd02dffd35e1f74)
+        ;
+
+        
+    
+    
+            var circle_marker_0c05982ae061a515cb20f2623b726324 = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_5345b9b3d41b1a9061e951066a2c68e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4abbefad0926b185e466b2c9b37d15c = $(`<div id="html_c4abbefad0926b185e466b2c9b37d15c" style="width: 100.0%; height: 100.0%;">Flight 42, VAFB SLC-4E, class 1</div>`)[0];
+                popup_5345b9b3d41b1a9061e951066a2c68e6.setContent(html_c4abbefad0926b185e466b2c9b37d15c);
+            
+        
+
+        circle_marker_0c05982ae061a515cb20f2623b726324.bindPopup(popup_5345b9b3d41b1a9061e951066a2c68e6)
+        ;
+
+        
+    
+    
+            var circle_marker_88798a29a66b107d6a0fffa754715893 = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_e51a57c8f6164044a64cfae46ada51ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c73c8f8949e777291e2838a49e1aac6 = $(`<div id="html_8c73c8f8949e777291e2838a49e1aac6" style="width: 100.0%; height: 100.0%;">Flight 46, VAFB SLC-4E, class 0</div>`)[0];
+                popup_e51a57c8f6164044a64cfae46ada51ab.setContent(html_8c73c8f8949e777291e2838a49e1aac6);
+            
+        
+
+        circle_marker_88798a29a66b107d6a0fffa754715893.bindPopup(popup_e51a57c8f6164044a64cfae46ada51ab)
+        ;
+
+        
+    
+    
+            var circle_marker_d19d7ee7f11944170cba76d8f06c1ea1 = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_e34923e78e886899885187fb25a29eec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab64adaa729d09d8306a05ec25515093 = $(`<div id="html_ab64adaa729d09d8306a05ec25515093" style="width: 100.0%; height: 100.0%;">Flight 49, VAFB SLC-4E, class 0</div>`)[0];
+                popup_e34923e78e886899885187fb25a29eec.setContent(html_ab64adaa729d09d8306a05ec25515093);
+            
+        
+
+        circle_marker_d19d7ee7f11944170cba76d8f06c1ea1.bindPopup(popup_e34923e78e886899885187fb25a29eec)
+        ;
+
+        
+    
+    
+            var circle_marker_87e3b4900ee04f13b1c16d39766664ff = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_9e5b6cda069c09704ac3c46fb5926d3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24e2f461f87f6b3905db68451a7e2a5f = $(`<div id="html_24e2f461f87f6b3905db68451a7e2a5f" style="width: 100.0%; height: 100.0%;">Flight 51, VAFB SLC-4E, class 0</div>`)[0];
+                popup_9e5b6cda069c09704ac3c46fb5926d3a.setContent(html_24e2f461f87f6b3905db68451a7e2a5f);
+            
+        
+
+        circle_marker_87e3b4900ee04f13b1c16d39766664ff.bindPopup(popup_9e5b6cda069c09704ac3c46fb5926d3a)
+        ;
+
+        
+    
+    
+            var circle_marker_0d96483dbda042cd2f3ac00a368d0965 = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_42d2b9efe88584ca9b5de5e4fa552c49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b3eda8820cecd952c3b7272594c60ae = $(`<div id="html_6b3eda8820cecd952c3b7272594c60ae" style="width: 100.0%; height: 100.0%;">Flight 55, VAFB SLC-4E, class 0</div>`)[0];
+                popup_42d2b9efe88584ca9b5de5e4fa552c49.setContent(html_6b3eda8820cecd952c3b7272594c60ae);
+            
+        
+
+        circle_marker_0d96483dbda042cd2f3ac00a368d0965.bindPopup(popup_42d2b9efe88584ca9b5de5e4fa552c49)
+        ;
+
+        
+    
+    
+            var circle_marker_732af9133234f5e770422bbc023ffba0 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_1b2655afc7907b21b561ddb4abb84c74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcf6d6f8af503d54d1f916dcbfe762e6 = $(`<div id="html_dcf6d6f8af503d54d1f916dcbfe762e6" style="width: 100.0%; height: 100.0%;">Flight 30, KSC LC-39A, class 1</div>`)[0];
+                popup_1b2655afc7907b21b561ddb4abb84c74.setContent(html_dcf6d6f8af503d54d1f916dcbfe762e6);
+            
+        
+
+        circle_marker_732af9133234f5e770422bbc023ffba0.bindPopup(popup_1b2655afc7907b21b561ddb4abb84c74)
+        ;
+
+        
+    
+    
+            var circle_marker_83a68aa056e1e8eb11a179a7f2cc384b = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_7c17097ec7f8adcd2563306acf69187d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e40be4fbfbe2b1c4bfd5c31e1f6c02f4 = $(`<div id="html_e40be4fbfbe2b1c4bfd5c31e1f6c02f4" style="width: 100.0%; height: 100.0%;">Flight 31, KSC LC-39A, class 0</div>`)[0];
+                popup_7c17097ec7f8adcd2563306acf69187d.setContent(html_e40be4fbfbe2b1c4bfd5c31e1f6c02f4);
+            
+        
+
+        circle_marker_83a68aa056e1e8eb11a179a7f2cc384b.bindPopup(popup_7c17097ec7f8adcd2563306acf69187d)
+        ;
+
+        
+    
+    
+            var circle_marker_2fb936412cea4e3ea7bb8a683cab6b16 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_8bcb30cda2c1b543bd82d68054bd329e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a09652a7552235d249a27b104d498043 = $(`<div id="html_a09652a7552235d249a27b104d498043" style="width: 100.0%; height: 100.0%;">Flight 32, KSC LC-39A, class 1</div>`)[0];
+                popup_8bcb30cda2c1b543bd82d68054bd329e.setContent(html_a09652a7552235d249a27b104d498043);
+            
+        
+
+        circle_marker_2fb936412cea4e3ea7bb8a683cab6b16.bindPopup(popup_8bcb30cda2c1b543bd82d68054bd329e)
+        ;
+
+        
+    
+    
+            var circle_marker_9b17b8a2430611fda3d26c0a84100679 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_ef6674e070aeac61075120db77fa67aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a0fbc03ea9c5742272aceaffb2faf22 = $(`<div id="html_4a0fbc03ea9c5742272aceaffb2faf22" style="width: 100.0%; height: 100.0%;">Flight 33, KSC LC-39A, class 1</div>`)[0];
+                popup_ef6674e070aeac61075120db77fa67aa.setContent(html_4a0fbc03ea9c5742272aceaffb2faf22);
+            
+        
+
+        circle_marker_9b17b8a2430611fda3d26c0a84100679.bindPopup(popup_ef6674e070aeac61075120db77fa67aa)
+        ;
+
+        
+    
+    
+            var circle_marker_471a5855fe9d365eff8c45f6f5ce656b = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_087e4f370fb4ace257c8ed4c997324a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9eea8232540cf53ffe3cc5c82fd12bf3 = $(`<div id="html_9eea8232540cf53ffe3cc5c82fd12bf3" style="width: 100.0%; height: 100.0%;">Flight 34, KSC LC-39A, class 0</div>`)[0];
+                popup_087e4f370fb4ace257c8ed4c997324a3.setContent(html_9eea8232540cf53ffe3cc5c82fd12bf3);
+            
+        
+
+        circle_marker_471a5855fe9d365eff8c45f6f5ce656b.bindPopup(popup_087e4f370fb4ace257c8ed4c997324a3)
+        ;
+
+        
+    
+    
+            var circle_marker_4fc8b041eba323ceb06ef8c866f54245 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_b4bef8fea05be0ab4ad875f533ab7902 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9b6b0f226a584186928ec26d09637e6 = $(`<div id="html_a9b6b0f226a584186928ec26d09637e6" style="width: 100.0%; height: 100.0%;">Flight 35, KSC LC-39A, class 1</div>`)[0];
+                popup_b4bef8fea05be0ab4ad875f533ab7902.setContent(html_a9b6b0f226a584186928ec26d09637e6);
+            
+        
+
+        circle_marker_4fc8b041eba323ceb06ef8c866f54245.bindPopup(popup_b4bef8fea05be0ab4ad875f533ab7902)
+        ;
+
+        
+    
+    
+            var circle_marker_6c3c133ed1d79f15d0eefa3632aa7d7d = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_ec2e9b61328cf17bcf0333148753eb7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85130c1a3b395a541263823fe6bf8423 = $(`<div id="html_85130c1a3b395a541263823fe6bf8423" style="width: 100.0%; height: 100.0%;">Flight 36, KSC LC-39A, class 1</div>`)[0];
+                popup_ec2e9b61328cf17bcf0333148753eb7e.setContent(html_85130c1a3b395a541263823fe6bf8423);
+            
+        
+
+        circle_marker_6c3c133ed1d79f15d0eefa3632aa7d7d.bindPopup(popup_ec2e9b61328cf17bcf0333148753eb7e)
+        ;
+
+        
+    
+    
+            var circle_marker_c0cf36e99a318f87a5cfa44ef4d87ce9 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_04a86293a61565608eff645385b67256 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0483fc6b135d0795000ffc3591257bc = $(`<div id="html_c0483fc6b135d0795000ffc3591257bc" style="width: 100.0%; height: 100.0%;">Flight 38, KSC LC-39A, class 0</div>`)[0];
+                popup_04a86293a61565608eff645385b67256.setContent(html_c0483fc6b135d0795000ffc3591257bc);
+            
+        
+
+        circle_marker_c0cf36e99a318f87a5cfa44ef4d87ce9.bindPopup(popup_04a86293a61565608eff645385b67256)
+        ;
+
+        
+    
+    
+            var circle_marker_06d9f2bf2e1e0eca913cb41cf220ac0a = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_10db8e4aaf4c830dfff1b89753d34ea5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3396986e1bd76e26be05868c80df5fe = $(`<div id="html_d3396986e1bd76e26be05868c80df5fe" style="width: 100.0%; height: 100.0%;">Flight 39, KSC LC-39A, class 1</div>`)[0];
+                popup_10db8e4aaf4c830dfff1b89753d34ea5.setContent(html_d3396986e1bd76e26be05868c80df5fe);
+            
+        
+
+        circle_marker_06d9f2bf2e1e0eca913cb41cf220ac0a.bindPopup(popup_10db8e4aaf4c830dfff1b89753d34ea5)
+        ;
+
+        
+    
+    
+            var circle_marker_238eca70c588b1bc985fe406266ea47a = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_90cd8349928901d6644c63a311d1c542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8965ac6d3192e83db01eb6393471b58 = $(`<div id="html_e8965ac6d3192e83db01eb6393471b58" style="width: 100.0%; height: 100.0%;">Flight 41, KSC LC-39A, class 1</div>`)[0];
+                popup_90cd8349928901d6644c63a311d1c542.setContent(html_e8965ac6d3192e83db01eb6393471b58);
+            
+        
+
+        circle_marker_238eca70c588b1bc985fe406266ea47a.bindPopup(popup_90cd8349928901d6644c63a311d1c542)
+        ;
+
+        
+    
+    
+            var circle_marker_970b1416057a7f4ed038ab9ec758230d = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_e141090f5366401533aacb0fab6268df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e82be4c441aeb537955d3ef8683b6d40 = $(`<div id="html_e82be4c441aeb537955d3ef8683b6d40" style="width: 100.0%; height: 100.0%;">Flight 43, KSC LC-39A, class 1</div>`)[0];
+                popup_e141090f5366401533aacb0fab6268df.setContent(html_e82be4c441aeb537955d3ef8683b6d40);
+            
+        
+
+        circle_marker_970b1416057a7f4ed038ab9ec758230d.bindPopup(popup_e141090f5366401533aacb0fab6268df)
+        ;
+
+        
+    
+    
+            var circle_marker_7932e429d5f86eca3f871db93ee254a0 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_3cd1b0b2c889c12821cd6919940c29ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bf737527a2ae69032c539400931b036 = $(`<div id="html_1bf737527a2ae69032c539400931b036" style="width: 100.0%; height: 100.0%;">Flight 44, KSC LC-39A, class 1</div>`)[0];
+                popup_3cd1b0b2c889c12821cd6919940c29ef.setContent(html_1bf737527a2ae69032c539400931b036);
+            
+        
+
+        circle_marker_7932e429d5f86eca3f871db93ee254a0.bindPopup(popup_3cd1b0b2c889c12821cd6919940c29ef)
+        ;
+
+        
+    
+    
+            var circle_marker_1683b733ff0c338a9c6b0c97e0c22b96 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_d877919c8a38f8d7843f6818ef1ae5e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1feeda416d3b93ecdd70b2ad769035ce = $(`<div id="html_1feeda416d3b93ecdd70b2ad769035ce" style="width: 100.0%; height: 100.0%;">Flight 54, KSC LC-39A, class 1</div>`)[0];
+                popup_d877919c8a38f8d7843f6818ef1ae5e4.setContent(html_1feeda416d3b93ecdd70b2ad769035ce);
+            
+        
+
+        circle_marker_1683b733ff0c338a9c6b0c97e0c22b96.bindPopup(popup_d877919c8a38f8d7843f6818ef1ae5e4)
+        ;
+
+        
+    
+    
+            var circle_marker_286683b8642bec118f1e50c6304d6d5c = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_cdb0f8477da2cd7702c1df87c87d09c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1c5002b1d8c0795d03eed01804f94cc = $(`<div id="html_d1c5002b1d8c0795d03eed01804f94cc" style="width: 100.0%; height: 100.0%;">Flight 45, CCAFS SLC-40, class 1</div>`)[0];
+                popup_cdb0f8477da2cd7702c1df87c87d09c9.setContent(html_d1c5002b1d8c0795d03eed01804f94cc);
+            
+        
+
+        circle_marker_286683b8642bec118f1e50c6304d6d5c.bindPopup(popup_cdb0f8477da2cd7702c1df87c87d09c9)
+        ;
+
+        
+    
+    
+            var circle_marker_769dcd7dd93604935ed75c437870dc50 = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_d114af6abbcedfbd6baf66970278be80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd7a2cd27515610a3b9a58dcd67dc334 = $(`<div id="html_fd7a2cd27515610a3b9a58dcd67dc334" style="width: 100.0%; height: 100.0%;">Flight 47, CCAFS SLC-40, class 1</div>`)[0];
+                popup_d114af6abbcedfbd6baf66970278be80.setContent(html_fd7a2cd27515610a3b9a58dcd67dc334);
+            
+        
+
+        circle_marker_769dcd7dd93604935ed75c437870dc50.bindPopup(popup_d114af6abbcedfbd6baf66970278be80)
+        ;
+
+        
+    
+    
+            var circle_marker_0f15a6bf13cbc1d7ae298097a3963631 = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_04eb89ff18acc62f6a2461b9aafa2b78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b2815550b4cba0ff02169a0485af264 = $(`<div id="html_1b2815550b4cba0ff02169a0485af264" style="width: 100.0%; height: 100.0%;">Flight 48, CCAFS SLC-40, class 0</div>`)[0];
+                popup_04eb89ff18acc62f6a2461b9aafa2b78.setContent(html_1b2815550b4cba0ff02169a0485af264);
+            
+        
+
+        circle_marker_0f15a6bf13cbc1d7ae298097a3963631.bindPopup(popup_04eb89ff18acc62f6a2461b9aafa2b78)
+        ;
+
+        
+    
+    
+            var circle_marker_4d1bc68ccddff035be6ac72e3dfccc15 = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_d2b0605e82814b079a62cf8d36e1f1c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_301161b9194257d1981ff082f80cdfdc = $(`<div id="html_301161b9194257d1981ff082f80cdfdc" style="width: 100.0%; height: 100.0%;">Flight 50, CCAFS SLC-40, class 0</div>`)[0];
+                popup_d2b0605e82814b079a62cf8d36e1f1c1.setContent(html_301161b9194257d1981ff082f80cdfdc);
+            
+        
+
+        circle_marker_4d1bc68ccddff035be6ac72e3dfccc15.bindPopup(popup_d2b0605e82814b079a62cf8d36e1f1c1)
+        ;
+
+        
+    
+    
+            var circle_marker_271549bd0deb89844bdc621e0c26493c = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_30e885bec591c713898803b6e2bcd19c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1102ee018fe0dc9d0be1584dbb673b36 = $(`<div id="html_1102ee018fe0dc9d0be1584dbb673b36" style="width: 100.0%; height: 100.0%;">Flight 52, CCAFS SLC-40, class 0</div>`)[0];
+                popup_30e885bec591c713898803b6e2bcd19c.setContent(html_1102ee018fe0dc9d0be1584dbb673b36);
+            
+        
+
+        circle_marker_271549bd0deb89844bdc621e0c26493c.bindPopup(popup_30e885bec591c713898803b6e2bcd19c)
+        ;
+
+        
+    
+    
+            var circle_marker_7a06461cdd7c7fa8cb1d68ffccb84229 = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_40965b968b3c9d2c03b1a46a50885588 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd3d19d5448f2ca307cf274fc5040e88 = $(`<div id="html_bd3d19d5448f2ca307cf274fc5040e88" style="width: 100.0%; height: 100.0%;">Flight 53, CCAFS SLC-40, class 1</div>`)[0];
+                popup_40965b968b3c9d2c03b1a46a50885588.setContent(html_bd3d19d5448f2ca307cf274fc5040e88);
+            
+        
+
+        circle_marker_7a06461cdd7c7fa8cb1d68ffccb84229.bindPopup(popup_40965b968b3c9d2c03b1a46a50885588)
+        ;
+
+        
+    
+    
+            var circle_marker_62ca1f7b17eb85e74c11a9da72ec2512 = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_48205b4c271a85870e8b3c22a3b79b09);
+        
+    
+        var popup_52da13a771ab814c432e3c2dd8c8c389 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad3d41c1a4e24405817a8e2ffcd0be7c = $(`<div id="html_ad3d41c1a4e24405817a8e2ffcd0be7c" style="width: 100.0%; height: 100.0%;">Flight 56, CCAFS SLC-40, class 0</div>`)[0];
+                popup_52da13a771ab814c432e3c2dd8c8c389.setContent(html_ad3d41c1a4e24405817a8e2ffcd0be7c);
+            
+        
+
+        circle_marker_62ca1f7b17eb85e74c11a9da72ec2512.bindPopup(popup_52da13a771ab814c432e3c2dd8c8c389)
+        ;
+
+        
+    
+    
+            marker_cluster_48205b4c271a85870e8b3c22a3b79b09.addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            var circle_marker_f5717fb321f8ccb9f5133b0aa0edb3de = L.circleMarker(
+                [28.56230197, -80.57735648],
+                {"bubblingMouseEvents": true, "color": "#1455b8", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1455b8", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            circle_marker_f5717fb321f8ccb9f5133b0aa0edb3de.bindTooltip(
+                `<div>
+                     CCAFS LC-40: 7/26 successful
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_28f2b4c837c5fcf35fac97003b982522 = L.circleMarker(
+                [28.56319718, -80.57682003],
+                {"bubblingMouseEvents": true, "color": "#1455b8", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1455b8", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            circle_marker_28f2b4c837c5fcf35fac97003b982522.bindTooltip(
+                `<div>
+                     CCAFS SLC-40: 3/7 successful
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ae854170860ac3eb34c4d31c1ffb7e82 = L.circleMarker(
+                [28.57325457, -80.64689529],
+                {"bubblingMouseEvents": true, "color": "#1455b8", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1455b8", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            circle_marker_ae854170860ac3eb34c4d31c1ffb7e82.bindTooltip(
+                `<div>
+                     KSC LC-39A: 10/13 successful
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e6242eec8a32d673b99ac97ab2547c8 = L.circleMarker(
+                [34.63283416, -120.6107455],
+                {"bubblingMouseEvents": true, "color": "#1455b8", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1455b8", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            circle_marker_2e6242eec8a32d673b99ac97ab2547c8.bindTooltip(
+                `<div>
+                     VAFB SLC-4E: 4/10 successful
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fbf1994f81353bef11c534937f5dd02c = L.polyline(
+                [[28.56230197, -80.57735648], [28.57325457, -80.64689529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            poly_line_fbf1994f81353bef11c534937f5dd02c.bindTooltip(
+                `<div>
+                     Pad-to-pad distance: 6.90 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c44ee0b63b00a4e025ca1061d53b85d4 = L.marker(
+                [28.567778269999998, -80.61212588500001],
+                {
+}
+            ).addTo(map_47b5d40c63d915d83765352f03118c3f);
+        
+    
+            var div_icon_24cc3f8053879c49fce1470d16c37b04 = L.divIcon({
+  "html": "\u003cdiv style=\"font: bold 17px Arial;background:white;border:1px solid navy;width:265px;padding:6px\"\u003eLC-40 to LC-39A: 6.90 km\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_c44ee0b63b00a4e025ca1061d53b85d4.setIcon(div_icon_24cc3f8053879c49fce1470d16c37b04);
+            
+    
+            var layer_control_33df09ccad04e6f1e595a47791c079a4_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_cadef968a4801732d300e06f9e22192b,
+                },
+                overlays :  {
+                    "Launch records" : marker_cluster_48205b4c271a85870e8b3c22a3b79b09,
+                },
+            };
+            let layer_control_33df09ccad04e6f1e595a47791c079a4 = L.control.layers(
+                layer_control_33df09ccad04e6f1e595a47791c079a4_layers.base_layers,
+                layer_control_33df09ccad04e6f1e595a47791c079a4_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_47b5d40c63d915d83765352f03118c3f);
+
+        
+</script>
+</html>
